@@ -51,7 +51,7 @@ func main() {
 	copy(copySlice, newSlice)
 	fmt.Println(copySlice)
 
-	//	Hati-hati saya membuat array, jangan sampai tertukar array dengan slice.
+	//	Hati-hati saat membuat array, jangan sampai tertukar array dengan slice.
 	// Jika array, maka kurung sikunya diberi panjang arraynya atau diberi titik tiga. Sedangkan
 	// slice kurung sikunya tidak diberi apa-apa
 
