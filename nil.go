@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func NewMap(name string) map[string]string {
 	if name == "" {
@@ -19,5 +21,4 @@ func main() {
 	} else {
 		fmt.Println(person["name"])
 	}
-
 }
